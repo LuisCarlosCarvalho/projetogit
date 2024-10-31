@@ -28,6 +28,9 @@
         <mxCell id="fp6Co9UbyM7Nf17T9PM_-7" value="Numero de Faltas" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=13;arcSize=27;" vertex="1" parent="1">
           <mxGeometry x="354.75" y="440" width="118.5" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="fp6Co9UbyM7Nf17T9PM_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fp6Co9UbyM7Nf17T9PM_-8" target="fp6Co9UbyM7Nf17T9PM_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fp6Co9UbyM7Nf17T9PM_-8" value="Vencimento dias: venc/22" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="319" y="520" width="190" height="50" as="geometry" />
         </mxCell>
@@ -49,11 +52,26 @@
         <mxCell id="fp6Co9UbyM7Nf17T9PM_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.517;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fp6Co9UbyM7Nf17T9PM_-6" target="fp6Co9UbyM7Nf17T9PM_-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fp6Co9UbyM7Nf17T9PM_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fp6Co9UbyM7Nf17T9PM_-16" target="fp6Co9UbyM7Nf17T9PM_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fp6Co9UbyM7Nf17T9PM_-16" value="Dias Trabalhados = 22 - n de Faltas" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="318.25" y="600" width="190" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="fp6Co9UbyM7Nf17T9PM_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fp6Co9UbyM7Nf17T9PM_-17" target="fp6Co9UbyM7Nf17T9PM_-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fp6Co9UbyM7Nf17T9PM_-17" value="Venc = venc dia x Dia_Trabalhado" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="318.25" y="680" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fp6Co9UbyM7Nf17T9PM_-21" value="O funcionario: &quot;nome&quot;&lt;div&gt;Vai receber: &quot;vencimento&quot;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="318.25" y="760" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fp6Co9UbyM7Nf17T9PM_-22" value="fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="376" y="840" width="76" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fp6Co9UbyM7Nf17T9PM_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fp6Co9UbyM7Nf17T9PM_-21" target="fp6Co9UbyM7Nf17T9PM_-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
